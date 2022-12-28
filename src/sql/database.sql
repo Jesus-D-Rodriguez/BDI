@@ -1,0 +1,14 @@
+CREATE DATABASE Mundial;
+
+USE Mundial;
+
+CREATE TABLE Equipo(
+    idEquipo INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nombreEquipo VARCHAR(100) NOT NULL
+);
+
+DESCRIBE Equipo;
+
+INSERT INTO Equipo VALUES (1, 'Españita');
+
+SELECT * FROM Equipo;
